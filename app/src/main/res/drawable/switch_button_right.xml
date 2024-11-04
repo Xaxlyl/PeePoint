@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="#FF0000" /> <!-- Example selected color -->
+            <corners android:topRightRadius="18dp" android:bottomRightRadius="18dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- White color -->
+            <corners android:topRightRadius="18dp" android:bottomRightRadius="18dp" />
+        </shape>
+    </item>
+</selector>
